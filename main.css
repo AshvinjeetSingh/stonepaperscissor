@@ -1,0 +1,98 @@
+body {
+  background-color: #1c1c1c;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+main {
+  max-width: 768px;
+  height: 100vh;
+  margin: auto;
+}
+
+.scoreboard {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  max-width: 574px;
+  border: 2px solid antiquewhite;
+}
+
+.scoreboard .user_score {
+  color: white;
+  margin: 15px 30px;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.scoreboard .user_score span {
+  margin: 0px 10px;
+  font-weight: 900;
+  color: rebeccapurple;
+}
+
+.scoreboard .comp_score {
+  color: white;
+  margin: 15px 30px;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.scoreboard .comp_score span {
+  margin: 0px 10px;
+  font-weight: 900;
+  color: rebeccapurple;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 991px;
+  margin: 0 auto;
+  color: wheat;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+.choices p span {
+  font-weight: 900;
+  color: rebeccapurple;
+}
+
+#result {
+  font-size: 32px;
+  color: antiquewhite;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+
+.main_conatiner {
+  display: flex;
+  justify-content: center;
+  max-width: 768px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main_conatiner p {
+  font-size: 150px;
+  border: 2px solid black;
+  justify-content: space-between;
+  padding: 25px 50px;
+  border-radius: 50%;
+  margin: 20px;
+  background-color: blanchedalmond;
+  cursor: pointer;
+}
+
+.main_conatiner p:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in;
+}
+/*# sourceMappingURL=main.css.map */
